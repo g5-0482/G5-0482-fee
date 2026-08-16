@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="Author" content="Avni">
+<title>Grid Layout</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    font-family:"Courgette",sans-serif;
+    background:white;
+}
+.box{
+    background:darkred;
+    color:white;
+    padding:1rem;
+}
+header{
+    height:10vh;
+    display:flex;
+    align-items:center;
+    margin-bottom:15px;
+}
+.gc{
+    flex:1;
+    display:grid;
+    gap:10px;
+    background:white;
+    place-content:center;
+    margin-bottom:15px;
+    grid-template-columns:150px 250px;
+    grid-template-rows:repeat(3,150px);
+}
+@media (min-width:767px){
+.gc{
+    grid-template-columns:repeat(3,200px);
+    grid-template-rows:repeat(2,200px);
+}
+}
+@media (min-width:1024px){
+.gc{
+    grid-template-columns:repeat(4,250px);
+    grid-template-rows:repeat(2,250px);
+}
+#m6{
+    grid-column:2/-1;
+}
+}
+footer{
+    height:10vh;
+    display:flex;
+    align-items:center;
+}
+</style>
+</head>
+<body>
+<header class="box">
+    <span style="font-size:2.5rem; margin-right:1rem;">&#9812;</span>
+    Header / Navbar
+</header>
+<section class="gc">
+    <main class="box" id="m1">Content-1</main>
+    <main class="box" id="m2">Content-2</main>
+    <main class="box" id="m3">Content-3</main>
+    <main class="box" id="m4">Content-4</main>
+    <main class="box" id="m5">Content-5</main>
+    <main class="box" id="m6">Content-6</main>
+</section>
+<footer class="box">
+    <span style="font-size:2rem; margin-right:1rem;">&#9776</span>
+    Footer
+</footer>
+</body>
+</html>

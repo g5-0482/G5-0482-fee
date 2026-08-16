@@ -1,0 +1,16 @@
+Q1. What do you know about functions ?
+Ans. A reusable block of code is known as functions. It prevents code repetition. It performs specific tasks. 
+
+Q2. What is layout ? 
+Ans. It is positioning of elements and tags in a webpage.
+
+Q3. What do you know about flex layout ?
+Ans. It align and arrange items in one row. It is also a technique for creating layout. (For example = Header , Footer).
+
+Q4. What is the need of grid layout ?
+Ans. It makes webpage more Organised and also can have different layouts in each box or area. It is widely used by developers.
+
+Q5. What is the use of github ?
+Ans. It is use to store the code that we just uploaded like claude.
+It can be accessed from anywhere .
+We can just give our git id and that can be accessed by other person.
