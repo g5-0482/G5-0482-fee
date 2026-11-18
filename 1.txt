@@ -1,0 +1,20 @@
+CSS:
+CSS stands for Cascading Style Sheets.
+ It is used to design and style web pages. 
+ CSS controls colors, fonts, backgrounds, spacing, borders, layouts, and animations. 
+ It makes websites attractive and responsive. CSS works with HTML to improve the 
+ appearance and user experience of web applications.
+Summary:It styles web pages,controls layouts,color,fonts and designs.
+
+REACT:
+React is a JavaScript library used to build interactive and dynamic user 
+interfaces (UI).It uses reusable components and Virtual DOM for efficient UI 
+updates. React is commonly used to develop Single Page Applications (SPAs).
+Summary :- build interactive user interfaces and Single Page Applications.
+
+React Router 
+React Router is a library used to navigate between different pages or components 
+in a React application without reloading the entire page.
+Summary:- navigation between different pages.
+
+layout,component,UI,CSS,SPA..
