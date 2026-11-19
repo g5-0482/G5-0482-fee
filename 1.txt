@@ -18,3 +18,9 @@ in a React application without reloading the entire page.
 Summary:- navigation between different pages.
 
 layout,component,UI,CSS,SPA..
+
+JavaScript is a high-level, lightweight, interpreted programming 
+language used to make websites interactive and dynamic. It 
+works with HTML and CSS to create responsive and user-friendly 
+web applications.
+Summary:- Makes websites dynamic and interactive.
